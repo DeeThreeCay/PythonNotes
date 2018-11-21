@@ -1,9 +1,17 @@
-#Used Materials:
-#DataCamp - Introduction to Python: Chapter 1 - Python Fundamentals
+#DataCamp - Introduction to Python
+#Chapter 1 - Python Fundamentals
 
 #'' or "" are acceptable
 print("Hello World!")
 print('Hello World!')
+
+a = 3
+b = 4
+#print techniques
+print(a,b) #3 4 (There's space between)
+print(a,b, sep='') #sep declares spacings
+print(a,b, end='') #end can declare not eol
+print('lol')
 
 #Common Misconception of Data Types
 w = 6/3 #w is a float
@@ -12,15 +20,10 @@ print (type(w))
 x = 6.0/2 #x is a float
 print (x)
 print (type(x))
-y = 3 + 0.0 #y is a float
-print (y)
-print (type(y))
 z = 2 ** 3.0 #z is a float
 print (z)
 print (type(z))
 z = str(z) #now it is a string
-print (z)
-print (type(z))
 l = "1" #l is a string
 print (l)
 print (type(l))
