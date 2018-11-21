@@ -1,4 +1,4 @@
-```python
+[aliases: py]
 #Used Materials:
 #DataCamp - Introduction to Python: Chapter 1 - Python Fundamentals
 
@@ -28,4 +28,3 @@ print (type(l))
 
 #Concat by + and repeated by *
 print ('D3K' + ' is ' + 'stupid ' * 3) 
-```
