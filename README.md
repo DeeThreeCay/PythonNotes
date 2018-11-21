@@ -1,2 +1,2 @@
 # PythonNotes
-Short python notes and Example codes
+Some short useless Python Notes that no one are interested in.
