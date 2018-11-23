@@ -1,0 +1,33 @@
+x = 3
+if (x == 3):
+  print ('x is 3')
+elif (x != 3):
+  print ('x is not 3')
+else:
+  print ('What?')
+
+y = 5902
+while y > 1:
+  if y == 4:
+    break #Ends loop when 4
+  if y % 2 == 0:
+    y = y // 2
+    print (y)
+    continue #Skip to next iteration
+  else:
+    y = y + 3
+    print (y)
+
+for z in range(10):
+  for z2 in range(z):
+    print (z2,sep='',end='')
+  print ()
+
+#Could use tuple/list for that
+for t in [1,3,2,4,3,5]:
+  for t2 in range(t):
+    print (t2,sep='',end='')
+  print ()
+#Could use string too
+for s in 'MakSTAndChanIC':
+  print (s + 'e',sep='',end='')
