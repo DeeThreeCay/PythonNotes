@@ -1,0 +1,56 @@
+#Immutable: Can't change what a variable 'refers' to.
+#Integer, Float, String, Tuple are immutable. 
+#Lists, Dictionaries, User-defined Types are mutable.
+
+#List
+a = [1, 2, 3]
+b = a
+a.append(4)
+print (b)
+
+#Tuple: Immutable, ordered
+#String: Pretty much a tuple
+#List: Mutable, ordered
+tuple1 = (1,2,3,4)
+string1 = '1234'
+list1 = [1,2,3,4]
+
+print (tuple1[1]) #2
+print (string1[-1]) #4
+tuple1 = tuple1[0:3] #(1,2,3)
+string1 = string1[2:] #'34'
+string2 = string1
+print (1 in list1)
+print ((1,2) + (2,3))
+print ((1,2,3) * 3)
+
+#Tuple1[1] = 2 is wrong.
+list1[2] = 2 #Mutable so ok.
+
+#List only
+li = [1,2]
+li.append('a')
+li.insert(1,8)
+li.extend([4,5,6,7]) #Note: this takes a list for extension, while append takes a singleton
+li.index('a')
+li.count('a')
+li.remove('a')
+li.reverse()
+li.sort()
+li.sort(reverse=True) #Reverse
+
+#Conversion Tuple<->List
+tu = (1,2,3)
+li = list(tu)
+tu = tuple(li)
+
+#Dictionary only
+d = {'Username':'MakST', 'Password':'123321','HKID':'Y124145'}
+print (d['Username'])
+d['Username'] = 'ChanIC'
+d['PhoneNo'] = '28881888' #New Entry allowed
+del d['HKID'],d['PhoneNo']
+d.keys() #['Username','Password']
+d.values() #['ChanIC','123321']
+d.items() #['(Username':'ChanIC'),('Password':'123321')]
+d.clear() #Clear all
