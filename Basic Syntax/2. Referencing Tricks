@@ -43,6 +43,9 @@ li.sort(reverse=True) #Reverse
 tu = (1,2,3)
 li = list(tu)
 tu = tuple(li)
+#Other Conversions
+int1 = int(2.5) #floored
+float1 = float(2)
 
 #Dictionary only
 d = {'Username':'MakST', 'Password':'123321','HKID':'Y124145'}
