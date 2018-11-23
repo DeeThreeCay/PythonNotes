@@ -1,4 +1,9 @@
 #SoloLearn: Functions & Modules
+
+import random
+from math import pi
+from math import sqrt as square_root #Hmm...
+
 def times (x,y):
   return x*y
 
@@ -28,7 +33,9 @@ y = [2]
 LocalAndGlobal(x,y)
 print (x,y) #Test
 print (Factorial(6)) #720
-#Can treat functions as 'value'
-Whatdahell = Factorial
+Whatdahell = Factorial #Can treat functions as 'value'
 print (Whatdahell(6)) #720
 print (Factorial(Factorial(3))) #720
+
+dice = random.randint(1,6)
+print (dice)
