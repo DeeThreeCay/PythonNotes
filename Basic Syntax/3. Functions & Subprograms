@@ -1,3 +1,4 @@
+#SoloLearn: Functions & Modules
 def times (x,y):
   return x*y
 
@@ -27,3 +28,7 @@ y = [2]
 LocalAndGlobal(x,y)
 print (x,y) #Test
 print (Factorial(6)) #720
+#Can treat functions as 'value'
+Whatdahell = Factorial
+print (Whatdahell(6)) #720
+print (Factorial(Factorial(3))) #720
