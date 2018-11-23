@@ -1,5 +1,4 @@
-#DataCamp - Introduction to Python
-#Chapter 1 - Python Fundamentals
+#DataCamp - Introduction to Python: Chapter 1 - Python Fundamentals
 
 #'' or "" are acceptable
 print("Hello World!")
