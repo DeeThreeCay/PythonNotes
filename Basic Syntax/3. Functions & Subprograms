@@ -1,0 +1,29 @@
+def times (x,y):
+  return x*y
+
+def printthrice(a):
+  for i in range(3):
+    print (a)
+#No return statement then will return None by default.
+
+def LocalAndGlobal (x,y):
+  x = 3 #Locally changed only
+  y[0] = 1 #Changed Globally
+
+def func1(a=1,b=2,c=3,d=4): #Default Arguments
+  print (a,b,c,d) 
+
+def Factorial(a):
+  if (a>1):
+    a = Factorial(a-1) * a
+  return a
+  
+
+print (times(3,4))
+b = 'lol'
+printthrice(b)
+x = 123
+y = [2]
+LocalAndGlobal(x,y)
+print (x,y) #Test
+print (Factorial(6)) #720
